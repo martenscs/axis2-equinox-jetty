@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?>
+
+<target name="axis2-target" sequenceNumber="20">
+<locations>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="axiom.feature.group" version="1.2.13"/>
+<unit id="axiom.source.feature.group" version="1.2.13"/>
+<unit id="axis2.feature.group" version="1.6.2"/>
+<unit id="axis2.source.feature.group" version="1.6.2"/>
+<repository location="http://p2.martenscs.net/axis2"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.apache.aries.feature.group" version="1.0.0.201402211947"/>
+<repository location="http://p2.martenscs.net/aries"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.equinox.osgi.runtime.feature.group" version="0.0.1.201403242200"/>
+<unit id="org.eclipse.osgi.web.source.feature.group" version="1.0.0.201403242200"/>
+<unit id="org.eclipse.osgi.web.feature.group" version="1.0.0.201403242200"/>
+</location>
+</locations>
+<includeBundles>
+<plugin id="org.eclipse.equinox.registry"/>
+<plugin id="org.apache.ws.commons.axiom.axiom-api"/>
+<plugin id="org.apache.geronimo.specs.geronimo-activation_1.1_spec"/>
+<plugin id="org.apache.neethi.source"/>
+<plugin id="org.eclipse.equinox.http.registry"/>
+<plugin id="org.eclipse.jetty.policy"/>
+<plugin id="org.eclipse.core.filesystem.win32.x86_64"/>
+<plugin id="jetty.home.bundle"/>
+<plugin id="ch.qos.logback.slf4j"/>
+<plugin id="org.apache.servicemix.specs.stax-api-1.0"/>
+<plugin id="org.objectweb.asm" version="3.3.1.v201105211655"/>
+<plugin id="org.apache.woden.woden-api"/>
+<plugin id="org.apache.geronimo.bundles.httpcore"/>
+<plugin id="org.eclipse.jetty.monitor.source"/>
+<plugin id="org.apache.geronimo.specs.geronimo-activation_1.1_spec.source"/>
+<plugin id="ch.qos.logback.core"/>
+<plugin id="org.apache.commons.beanutils"/>
+<plugin id="org.eclipse.jetty.osgi.boot.jsp"/>
+<plugin id="woodstox-core-asl.source"/>
+<plugin id="org.apache.geronimo.specs.geronimo-ws-metadata_2.0_spec.source"/>
+<plugin id="com.google.gson"/>
+<plugin id="woodstox-core-asl"/>
+<plugin id="org.eclipse.equinox.util"/>
+<plugin id="org.eclipse.jetty.http"/>
+<plugin id="org.eclipse.equinox.http.servlet"/>
+<plugin id="org.apache.servicemix.bundles.commons-httpclient"/>
+<plugin id="axiom-dom"/>
+<plugin id="org.eclipse.jetty.websocket"/>
+<plugin id="org.eclipse.jetty.deploy"/>
+<plugin id="stax2-api.source"/>
+<plugin id="org.eclipse.core.contenttype"/>
+<plugin id="org.apache.commons.discovery"/>
+<plugin id="org.eclipse.jetty.osgi.boot"/>
+<plugin id="org.apache.ws.commons.schema.XmlSchema"/>
+<plugin id="com.google.guava"/>
+<plugin id="org.slf4j.log4j"/>
+<plugin id="org.eclipse.jetty.jaspi.source"/>
+<plugin id="org.apache.servicemix.bundles.wsdl4j.source"/>
+<plugin id="org.apache.neethi"/>
+<plugin id="org.slf4j.jul"/>
+<plugin id="commons-logging-api"/>
+<plugin id="org.apache.commons.io" version="2.0.1.v201105210651"/>
+<plugin id="org.eclipse.jetty.osgi.boot.jsp.source"/>
+<plugin id="org.apache.commons.lang"/>
+<plugin id="org.apache.geronimo.bundles.httpcore.source"/>
+<plugin id="org.eclipse.jetty.nested.source"/>
+<plugin id="org.eclipse.jetty.osgi.boot.warurl.source"/>
+<plugin id="org.slf4j.jcl"/>
+<plugin id="org.eclipse.jetty.servlet.source"/>
+<plugin id="org.apache.commons.io" version="2.3.0"/>
+<plugin id="org.eclipse.jetty.webapp"/>
+<plugin id="org.apache.james.apache-mime4j-core"/>
+<plugin id="org.eclipse.jetty.osgi.httpservice"/>
+<plugin id="org.eclipse.jetty.plus"/>
+<plugin id="org.eclipse.jetty.continuation"/>
+<plugin id="org.eclipse.jetty.xml"/>
+<plugin id="org.eclipse.jetty.deploy.source"/>
+<plugin id="org.apache.ws.commons.schema.XmlSchema.source"/>
+<plugin id="org.eclipse.jetty.monitor"/>
+<plugin id="org.junit4"/>
+<plugin id="org.eclipse.core.runtime.compatibility.registry"/>
+<plugin id="javax.transaction"/>
+<plugin id="axiom-dom.source"/>
+<plugin id="org.apache.geronimo.specs.geronimo-jta_1.1_spec" version="1.1.1"/>
+<plugin id="org.apache.geronimo.specs.geronimo-jpa_2.0_spec"/>
+<plugin id="org.apache.commons.fileupload.source"/>
+<plugin id="org.eclipse.jetty.nosql"/>
+<plugin id="org.apache.felix.gogo.shell"/>
+<plugin id="org.apache.geronimo.specs.geronimo-javamail_1.4_spec.source"/>
+<plugin id="org.eclipse.jetty.annotations.source"/>
+<plugin id="org.apache.axis2.osgi"/>
+<plugin id="org.eclipse.core.filesystem"/>
+<plugin id="com.ibm.icu"/>
+<plugin id="org.eclipse.jetty.nested"/>
+<plugin id="org.eclipse.osgi.services"/>
+<plugin id="org.slf4j.api"/>
+<plugin id="org.apache.commons.fileupload" version="1.2.2.v20111214-1400"/>
+<plugin id="org.eclipse.jetty.util"/>
+<plugin id="org.eclipse.jetty.server"/>
+<plugin id="org.apache.felix.http.bundle.source"/>
+<plugin id="org.eclipse.equinox.cm"/>
+<plugin id="org.eclipse.jetty.webapp.source"/>
+<plugin id="org.eclipse.core.expressions"/>
+<plugin id="org.eclipse.equinox.console"/>
+<plugin id="org.apache.james.apache-mime4j-core.source"/>
+<plugin id="org.apache.servicemix.bundles.commons-httpclient.source"/>
+<plugin id="org.eclipse.jetty.client.source"/>
+<plugin id="org.apache.servicemix.bundles.wsdl4j"/>
+<plugin id="org.eclipse.jetty.websocket.source"/>
+<plugin id="org.eclipse.jetty.ajp.source"/>
+<plugin id="org.apache.taglibs.standard.glassfish"/>
+<plugin id="org.eclipse.jetty.client"/>
+<plugin id="org.apache.taglibs.standard.glassfish.source"/>
+<plugin id="org.eclipse.jetty.jndi"/>
+<plugin id="org.apache.geronimo.specs.geronimo-jms_1.1_spec"/>
+<plugin id="org.apache.felix.gogo.command"/>
+<plugin id="org.eclipse.jetty.rewrite"/>
+<plugin id="org.apache.woden.woden-impl-commons"/>
+<plugin id="axiom-impl.source"/>
+<plugin id="org.eclipse.jetty.http.source"/>
+<plugin id="org.apache.geronimo.specs.geronimo-javamail_1.4_spec"/>
+<plugin id="ch.qos.logback.classic"/>
+<plugin id="org.eclipse.jetty.io"/>
+<plugin id="org.eclipse.jetty.annotations"/>
+<plugin id="org.eclipse.jetty.servlets"/>
+<plugin id="org.apache.geronimo.specs.geronimo-ws-metadata_2.0_spec"/>
+<plugin id="org.eclipse.jetty.util.source"/>
+<plugin id="org.eclipse.jetty.security.source"/>
+<plugin id="org.junit"/>
+<plugin id="org.apache.commons.cli"/>
+<plugin id="org.apache.commons.io.source"/>
+<plugin id="org.apache.commons.collections"/>
+<plugin id="org.apache.commons.codec.source"/>
+<plugin id="org.apache.ws.commons.axiom.axiom-api.source"/>
+<plugin id="org.apache.felix.http.bundle"/>
+<plugin id="org.eclipse.equinox.http.jetty"/>
+<plugin id="javax.servlet"/>
+<plugin id="org.eclipse.core.resources"/>
+<plugin id="org.apache.geronimo.specs.geronimo-jaxrs_1.1_spec.source"/>
+<plugin id="org.apache.servicemix.specs.stax-api-1.0.source"/>
+<plugin id="org.eclipse.jetty.jndi.source"/>
+<plugin id="org.apache.geronimo.specs.geronimo-jms_1.1_spec.source"/>
+<plugin id="org.apache.geronimo.specs.geronimo-jta_1.1_spec.source" version="1.1.1"/>
+<plugin id="org.eclipse.equinox.http.servlet.source"/>
+<plugin id="org.eclipse.jetty.server.source"/>
+<plugin id="org.apache.jasper.glassfish.source"/>
+<plugin id="org.eclipse.jetty.jmx"/>
+<plugin id="org.eclipse.jetty.security"/>
+<plugin id="org.eclipse.equinox.http.jetty.source"/>
+<plugin id="org.eclipse.jetty.osgi.boot.source"/>
+<plugin id="org.eclipse.core.commands"/>
+<plugin id="org.eclipse.jetty.io.source"/>
+<plugin id="org.apache.geronimo.specs.geronimo-servlet_2.5_spec"/>
+<plugin id="org.apache.commons.configuration"/>
+<plugin id="org.apache.felix.gogo.runtime"/>
+<plugin id="org.eclipse.equinox.common"/>
+<plugin id="org.eclipse.core.runtime"/>
+<plugin id="org.eclipse.jetty.servlet"/>
+<plugin id="org.apache.commons.codec" version="1.7.0"/>
+<plugin id="org.apache.commons.fileupload" version="1.2.2"/>
+<plugin id="org.apache.geronimo.specs.geronimo-servlet_2.5_spec.source"/>
+<plugin id="org.eclipse.equinox.preferences"/>
+<plugin id="org.eclipse.jetty.rewrite.source"/>
+<plugin id="osgi.enterprise"/>
+<plugin id="org.eclipse.jetty.jaspi"/>
+<plugin id="org.eclipse.jetty.plus.source"/>
+<plugin id="org.apache.jasper.glassfish"/>
+<plugin id="org.eclipse.jetty.jmx.source"/>
+<plugin id="org.hamcrest.core"/>
+<plugin id="javax.inject"/>
+<plugin id="org.eclipse.equinox.http.registry.source"/>
+<plugin id="org.eclipse.jetty.osgi.httpservice.source"/>
+<plugin id="org.eclipse.jetty.servlets.source"/>
+<plugin id="org.eclipse.jetty.nosql.source"/>
+<plugin id="org.apache.commons.configuration.source"/>
+<plugin id="org.eclipse.core.jobs"/>
+<plugin id="org.eclipse.jetty.ajp"/>
+<plugin id="org.apache.geronimo.specs.geronimo-jaxrs_1.1_spec"/>
+<plugin id="org.eclipse.equinox.app"/>
+<plugin id="org.eclipse.jetty.continuation.source"/>
+<plugin id="axiom-impl"/>
+<plugin id="org.eclipse.osgi"/>
+<plugin id="org.eclipse.equinox.ds"/>
+<plugin id="org.eclipse.jetty.xml.source"/>
+<plugin id="org.eclipse.jetty.osgi.boot.warurl"/>
+<plugin id="org.apache.aries.blueprint.api"/>
+<plugin id="stax2-api"/>
+</includeBundles>
+</target>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.apache.axis2.simple_1.0.0.qualifier.jar" id="org.apache.axis2.simple" version="1.0.0.qualifier">
+      <category name="Axis2 Simple Module"/>
+   </feature>
+   <category-def name="Axis2 Simple Module" label="Axis2 Simple Module"/>
+</site>

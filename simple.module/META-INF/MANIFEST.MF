@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Private-Package: org.apache.axis2.osgi.module
+Bundle-Name: simple.module
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: org.apache.axis2.osgi;visibility:=reexport
+Bundle-Vendor: Apache Axis2, 2008
+Bundle-Version: 1.0.0.qualifier
+Bundle-ManifestVersion: 2
+Bundle-Description: simple.module bundle
+Import-Package: org.apache.axis2;version="1.5",org.apache.axis2.contex
+ t;version="1.5",org.apache.axis2.description;version="1.5",org.apache
+ .axis2.engine;version="1.5",org.apache.axis2.handlers;version="1.5",o
+ rg.apache.axis2.modules;version="1.5",org.apache.neethi;version="3.0"
+Bundle-SymbolicName: simple.module
+

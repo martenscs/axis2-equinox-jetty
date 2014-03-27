@@ -16,4 +16,18 @@
       [Enter License Description here.]
    </license>
 
+   <plugin
+         id="simple.module"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="simple.version"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
 </feature>

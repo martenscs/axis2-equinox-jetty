@@ -14,7 +14,6 @@ Build-Jdk: 1.6.0_38
 Bundle-Version: 1.0.0.qualifier
 Bnd-LastModified: 1395439971852
 Bundle-ManifestVersion: 2
-Bundle-Activator: org.apache.axis2.osgi.service.Activator
 Bundle-Description: version bundle
 Import-Package: org.apache.axis2.osgi.deployment.tracker;version="1.0"
  ,org.osgi.framework
